@@ -62,6 +62,18 @@ section p {
   margin: 0;
 }
 
+section p + p {
+  margin-top: 0.75rem;
+}
+
+main a {
+  color: #0b57d0;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
 .placeholder {
   color: #666;
   font-style: italic;
@@ -98,5 +110,9 @@ section p {
 
   .site-footer {
     border-top-color: #333;
+  }
+
+  main a {
+    color: #8ab4ff;
   }
 }
